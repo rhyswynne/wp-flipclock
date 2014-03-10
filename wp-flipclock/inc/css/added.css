@@ -1,0 +1,4 @@
+/** THIS FIXES AN ISSUE WITH BOOTSTRAP **/
+.flip-clock-wrapper ul li {
+	line-height: 87px;
+}
