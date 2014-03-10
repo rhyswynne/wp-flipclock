@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: WP Flipclock
-Plugin URI: 
+Plugin URI: http://winwar.co.uk/plugins/wp-flipclock/
 Description: Adds a jQuery Flipclock to the site (based on flipclock.js library)
 Version: 0.1
 Author: Winwar Media
