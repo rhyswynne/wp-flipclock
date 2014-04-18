@@ -2,3 +2,11 @@
 .flip-clock-wrapper ul li {
 	line-height: 87px;
 }
+
+.flip-clock-wrapper ul.flip {
+	list-style: none;
+}
+
+.flip-clock-wrapper ul.flip li {
+	margin-left: 0px;
+}
