@@ -4,7 +4,7 @@ Donate link: http://winwar.co.uk/plugins/wp-flipclock/#donate
 Tags: flipclock, jquery, clocks, timers, countups, countdown
 Requires at least: 3.8.1
 Tested up to: 3.9
-Stable tag: 1.0
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -39,10 +39,19 @@ Why don't you?
 * Follow us on Social Media, such as [Facebook](https://www.facebook.com/winwaruk), [Twitter](https://twitter.com/winwaruk) or [Google+](https://plus.google.com/+WinwarCoUk)
 * [Send us an email](http://winwar.co.uk/contact-us/)! We like hearing from plugin users.
 
+= For Support =
+We offer support in two places:-
+
+* Support on the [WordPress.org Support Board](http://wordpress.org/support/plugin/wp-flipclock)
+* A [priority support forum](http://winwar.co.uk/priority-support/), which offers same-day responses.
+
 = On Github =
 This project is now on github, [you can view the repository here](https://github.com/rhyswynne/wp-flipclock). There are other versions, but this is the one I've put up, so where all the developmental will be tracked.
 
 == Changelog ==
+= 1.2 =
+* Upgraded to latest version of flipclock.js
+
 = 1.1 =
 * Fix display bug in TwentyTwelve
 
