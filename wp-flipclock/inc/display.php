@@ -14,17 +14,17 @@ function wp_flipclock_display_clock($name, $countdown = "", $datestring = "", $c
 	if ($datestring && $countdown) {
 
 		$phptime = strtotime($datestring);
-		$clock_js_string .= 'var currentDate = new Date();';
-		$clock_js_string .= 'var futureDate  = new Date('.$phptime.' * 1000);';
+		$clock_js_string .= 'var currentDate'.$name.' = new Date();';
+		$clock_js_string .= 'var futureDate'.$name.'  = new Date('.$phptime.' * 1000);';
 
-		$clock_js_string .= 'var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;';
+		$clock_js_string .= 'var diff'.$name.' = futureDate'.$name.'.getTime() / 1000 - currentDate'.$name.'.getTime() / 1000;';
 
 	} elseif ($datestring && !$countdown) {
 
 		$phptime = strtotime($datestring);
-		$clock_js_string .= 'var currentDate = new Date();';
-		$clock_js_string .= 'var pastDate  = new Date('.$phptime.' * 1000);';
-		$clock_js_string .= 'var diff = currentDate.getTime() / 1000 - pastDate.getTime() / 1000;';
+		$clock_js_string .= 'var currentDate'.$name.' = new Date();';
+		$clock_js_string .= 'var pastDate'.$name.'  = new Date('.$phptime.' * 1000);';
+		$clock_js_string .= 'var diff'.$name.' = currentDate'.$name.'.getTime() / 1000 - pastDate'.$name.'.getTime() / 1000;';
 
 	}
 			
@@ -34,7 +34,7 @@ function wp_flipclock_display_clock($name, $countdown = "", $datestring = "", $c
 		clock = jQuery('.".$name."').FlipClock(";
 
 	if ($datestring) {
-		$clock_js_string .= "diff, {";
+		$clock_js_string .= "diff".$name.", {";
 	} else {
 		$clock_js_string .= "{";
 	} 
