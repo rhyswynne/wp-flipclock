@@ -51,7 +51,12 @@ This project is now on github, [you can view the repository here](https://github
 == Changelog ==
 = 1.4 =
 * Now allows two different clocks on the same page (if given different names).
+* Added the "lang" Shortcode attribute to choose the languages.
+* Added the "timezone" attribute to set the timezone for the date.
+* Added the "seconds" attribute to hide/show seconds attribute which shows/hides the seconds.
 * Upgraded to flipclock.js version 0.5.5.
+
+A big thank you to Den Kalinin for a lot of the changes in this update.
 
 = 1.3 =
 * Rolled back to previous version of flipclock.js, as it caused issues. Will look at when I have time (patches welcome!)
