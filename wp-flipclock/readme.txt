@@ -27,6 +27,13 @@ To use the plugin in your site, all you need to add to the page is the `[flipclo
 * hours - Hours : Minutes : Seconds
 * minutes - Minutes : Seconds
 
+* **lang** - Changes the language of the labels (days,hours,minutes,seconds). Supported languages: English, Russian, Spanish, French, German.
+* **timezone** - Sets timezone for date. Now it shows the correct time before the event. (fix issue #2 Time Localisation). The time zones have unique names in the form "Area/Location", e.g. "America/New_York".
+* **seconds** - Hides|shows seconds in face-mode "days". 
+
+*1 - shows seconds
+*0 - hide seconds
+
 This plugin uses the [Flipclock.js](http://www.flipclockjs.com) library from [ObjectiveHTML](https://www.objectivehtml.com/).
 
 = About Winwar Media =
