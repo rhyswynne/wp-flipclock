@@ -34,7 +34,7 @@ function wp_flipclock_display_clock($name, $countdown = "", $datestring = "", $c
 	if ($datestring && $countdown) {
 
 		$timeOffset = wp_flipclock_get_timezone_offset($timezone);
-		$clock_js_string .= "var currentDate".$name." = new Date().getTime() + new Date().getTimezoneOffset()*60000 - ". $timeOffset .";";
+		$clock_js_string .= "var currentDate".$name." = new Date().getTime() + new Date().getTimezoneOffset()*0 - ". $timeOffset .";";
 		$clock_js_string .= "var futureDate".$name."  = Date.parse('".$javascripttime."');";
 
 		$clock_js_string .= 'var diff'.$name.' = futureDate'.$name.' / 1000 - currentDate'.$name.' / 1000;';
