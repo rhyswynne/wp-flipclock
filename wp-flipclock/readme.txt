@@ -58,6 +58,10 @@ We offer support in two places:-
 This project is now on github, [you can view the repository here](https://github.com/rhyswynne/wp-flipclock). There are other versions, but this is the one I've put up, so where all the developmental will be tracked.
 
 == Changelog ==
+= 1.5 =
+* Now doesn't display negative time if the countdown has passed,.
+* Fixed a bug where the clock was out dependant on timezones (thanks [gleave75](https://github.com/gleave75))
+
 = 1.4 =
 * Now allows two different clocks on the same page (if given different names).
 * Added the "lang" Shortcode attribute to choose the languages.
