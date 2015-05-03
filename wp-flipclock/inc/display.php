@@ -38,6 +38,8 @@ function wp_flipclock_display_clock($name, $countdown = "", $datestring = "", $c
 		$clock_js_string .= "var futureDate".$name."  = Date.parse('".$javascripttime."');";
 
 		$clock_js_string .= 'var diff'.$name.' = futureDate'.$name.' / 1000 - currentDate'.$name.' / 1000;';
+		$clock_js_string .= 'if (diff'.$name.' < 0) { diff'.$name.' = 0; }';
+		$clock_js_string .= 'console.log(diff'.$name.');';
 
 	} elseif ($datestring && !$countdown) {
 
