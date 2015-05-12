@@ -16,6 +16,13 @@ function wp_flipclock_get_timezone_offset($timezone="UTC"){
 function wp_flipclock_display_clock($name, $countdown = "", $datestring = "", $clockface = "hours", $lang="english", $timezone="UTC", $seconds=1)
 {
 
+
+	$countdown = strtolower( $countdown );
+
+	if ( $countdown == "false" ) {
+		$countdown = FALSE;
+	}
+
 	$clock_string = "";
 	$clock_string .= '<div class="'.$name.'"></div>';
 
@@ -24,6 +31,8 @@ function wp_flipclock_display_clock($name, $countdown = "", $datestring = "", $c
 	var clock;';
 
 	$phptime = "";
+
+
 
 
 	if ( $datestring ) {
