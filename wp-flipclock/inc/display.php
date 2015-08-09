@@ -96,6 +96,12 @@ function wp_flipclock_display_clock($name, $countdown = "", $datestring = "", $c
 				case "minutes":
 				$clock_js_string .= "clockFace: 'MinuteCounter'";
 				break;
+				case "12h":
+				$clock_js_string .= "clockFace: 'TwelveHourClock'";
+				break;
+				case "24h":
+				$clock_js_string .= "clockFace: 'TwentyFourHourClock'";
+				break;
 				default:
 				break;
 			}
