@@ -13,7 +13,7 @@ function wp_flipclock_get_timezone_offset($timezone="UTC"){
 }
 
 /** FUNCTION FOR DISPLAYING THE CLOCK **/
-function wp_flipclock_display_clock($name, $countdown = "", $datestring = "", $clockface = "hours", $lang="english", $timezone="UTC", $seconds=1)
+function wp_flipclock_display_clock($name, $countdown = "", $datestring = "", $clockface = "hours", $lang="english", $timezone="UTC", $seconds=1, $hidelabel = false)
 {
 
 
@@ -105,7 +105,17 @@ function wp_flipclock_display_clock($name, $countdown = "", $datestring = "", $c
 });
 </script>";
 
-$clock_total_string = $clock_string . $clock_js_string;
+$clock_css_string = "";
+
+if ( $hidelabel ) {
+	$clock_css_string = '<style>
+	.flip-clock-label {
+		display: none;
+	}
+	</style>';
+}
+
+$clock_total_string = $clock_string . $clock_js_string . $clock_css_string;
 
 return $clock_total_string;
 }
@@ -125,9 +135,10 @@ function wp_flipclock_shortcode($atts)
 		'lang' => 'english',
 		'timezone' => 'UTC',
 		'face' => 'hours',
-		'seconds' => '1'
+		'seconds' => '1',
+		'hidelabel' => 'false'
 		), $atts ) );
-	return wp_flipclock_display_clock($name, $countdown, $date, strtolower($face), $lang, $timezone, intval($seconds));
+	return wp_flipclock_display_clock($name, $countdown, $date, strtolower($face), $lang, $timezone, intval($seconds), $hidelabel);
 }
 
 add_shortcode('flipclock','wp_flipclock_shortcode');
