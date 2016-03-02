@@ -1,6 +1,6 @@
 ﻿=== WP Flipclock ===
 Contributors: rhyswynne
-Donate link: http://winwar.co.uk/plugins/wp-flipclock/#donate
+Donate link: https://www.winwar.co.uk/plugins/wp-flipclock/#donate
 Tags: flipclock, jquery, clocks, timers, countups, countdown
 Requires at least: 3.8.1
 Tested up to: 4.2.1
@@ -36,23 +36,23 @@ To use the plugin in your site, all you need to add to the page is the `[flipclo
 
 This plugin uses the [Flipclock.js](http://www.flipclockjs.com) library from [ObjectiveHTML](https://www.objectivehtml.com/).
 
-Further support and examples are on the [WP Flipclock Documentation](http://winwar.co.uk/documentation/wp-flipclock/?utm_source=description&utm_medium=wordpressorgreadme&utm_campaign=wpflipclock) page.
+Further support and examples are on the [WP Flipclock Documentation](https://www.winwar.co.uk/documentation/wp-flipclock/?utm_source=description&utm_medium=wordpressorgreadme&utm_campaign=wpflipclock) page.
 
 = About Winwar Media =
-This plugin is made by [**Winwar Media**](http://winwar.co.uk/?utm_source=aboutwinwarmedia&utm_medium=wordpressorgreadme&utm_campaign=wpflipclock), a WordPress Development and Training Agency in Manchester, UK.
+This plugin is made by [**Winwar Media**](https://www.winwar.co.uk/?utm_source=aboutwinwarmedia&utm_medium=wordpressorgreadme&utm_campaign=wpflipclock), a WordPress Development and Training Agency in Manchester, UK.
 
 Why don't you?
 
-* Check out our book, [bbPress Complete](http://winwar.co.uk/books/bbpress-complete/?utm_source=aboutwinwarmedia&utm_medium=wordpressorgreadme&utm_campaign=wpflipclock)
-* Check out our other [WordPress Plugins](http://winwar.co.uk/plugins/?utm_source=aboutwinwarmedia&utm_medium=wordpressorgreadme&utm_campaign=wpflipclock), including [WP Email Capture](http://wpemailcapture.com)
+* Check out our book, [bbPress Complete](https://www.winwar.co.uk/books/bbpress-complete/?utm_source=aboutwinwarmedia&utm_medium=wordpressorgreadme&utm_campaign=wpflipclock)
+* Check out our other [WordPress Plugins](https://www.winwar.co.uk/plugins/?utm_source=aboutwinwarmedia&utm_medium=wordpressorgreadme&utm_campaign=wpflipclock), including [WP Email Capture](http://wpemailcapture.com)
 * Follow us on Social Media, such as [Facebook](https://www.facebook.com/winwaruk), [Twitter](https://twitter.com/winwaruk) or [Google+](https://plus.google.com/+WinwarCoUk)
-* [Send us an email](http://winwar.co.uk/contact-us/?utm_source=aboutwinwarmedia&utm_medium=wordpressorgreadme&utm_campaign=wpflipclock)! We like hearing from plugin users.
+* [Send us an email](https://www.winwar.co.uk/contact-us/?utm_source=aboutwinwarmedia&utm_medium=wordpressorgreadme&utm_campaign=wpflipclock)! We like hearing from plugin users.
 
 = For Support =
 We offer support in two places:-
 
 * Support on the [WordPress.org Support Board](http://wordpress.org/support/plugin/wp-flipclock)
-* A [priority support forum](http://winwar.co.uk/priority-support/?utm_source=forsupport&utm_medium=wordpressorgreadme&utm_campaign=wpflipclock), which offers same-day responses.
+* A [priority support forum](https://www.winwar.co.uk/priority-support/?utm_source=forsupport&utm_medium=wordpressorgreadme&utm_campaign=wpflipclock), which offers same-day responses.
 
 = On Github =
 This project is now on github, [you can view the repository here](https://github.com/rhyswynne/wp-flipclock). There are other versions, but this is the one I've put up, so where all the developmental will be tracked.
@@ -61,6 +61,7 @@ This project is now on github, [you can view the repository here](https://github
 = 1.6 =
 * Adds the ability to hide the labels.
 * Add the ability to have a 24 hour and 12 hour clock
+* Added Responsiveness.
 
 = 1.5.1 =
 * Fixed a small bug that "countdown='false'" ends with a countdown. Allows people to specify no countdown and then still work.
