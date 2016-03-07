@@ -58,10 +58,12 @@ We offer support in two places:-
 This project is now on github, [you can view the repository here](https://github.com/rhyswynne/wp-flipclock). There are other versions, but this is the one I've put up, so where all the developmental will be tracked.
 
 == Changelog ==
+= 1.7 =
+* Added Responsiveness.
+
 = 1.6 =
 * Adds the ability to hide the labels.
 * Add the ability to have a 24 hour and 12 hour clock
-* Added Responsiveness.
 
 = 1.5.1 =
 * Fixed a small bug that "countdown='false'" ends with a countdown. Allows people to specify no countdown and then still work.
