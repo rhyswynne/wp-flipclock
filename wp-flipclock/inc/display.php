@@ -13,7 +13,7 @@ function wp_flipclock_get_timezone_offset($timezone="UTC"){
 }
 
 /** FUNCTION FOR DISPLAYING THE CLOCK **/
-// (BA) Add safety default for $name in case this is called from other than the shortcode handler
+// (BA) Add safety default for $name in case function is called from other than the shortcode handler
 function wp_flipclock_display_clock($name = "wpflipclock", $countdown = "", $datestring = "", $clockface = "hours", $lang="english", $timezone="UTC", $seconds=1, $hidelabel = "false")
 {
 
@@ -140,7 +140,7 @@ return $clock_total_string;
 function wp_flipclock_shortcode($atts)
 {
 	extract( shortcode_atts( array(
-		'name' => '', // (BA) If not in shortcode params then use empty
+		'name' => '', // (BA) If not in shortcode params then use empty string
 		'countdown' => '',
 		'date' => '',
 		'lang' => 'english',
