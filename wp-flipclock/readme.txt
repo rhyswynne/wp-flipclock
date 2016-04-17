@@ -58,6 +58,9 @@ We offer support in two places:-
 This project is now on github, [you can view the repository here](https://github.com/rhyswynne/wp-flipclock). There are other versions, but this is the one I've put up, so where all the developmental will be tracked.
 
 == Changelog ==
+= 1.7.2 =
+* Fixed bug in hidelabel not displaying (thanks [CInsights](https://github.com/CInsights/)).
+
 = 1.7 =
 * Added Responsiveness.
 
