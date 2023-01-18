@@ -153,7 +153,7 @@ function wp_flipclock_shortcode($atts)
 		if( empty($name) )
 			// (BA) If the name is not set create a random one
 			$name = uniqid("wpflipclock-");
-	return wp_flipclock_display_clock($name, $countdown, $date, strtolower($face), $lang, $timezone, intval($seconds), $hidelabel);
+	return wp_flipclock_display_clock( esc_attr( $name ), esc_attr( $countdown ), esc_attr( $date ), strtolower( esc_attr( $face ) ), esc_attr( $lang ), esc_attr( $timezone ), esc_attr( intval($seconds) ), esc_attr( $hidelabel ) );
 }
 
 add_shortcode('flipclock','wp_flipclock_shortcode');

@@ -1,9 +1,9 @@
-﻿=== WP Flipclock ===
+=== WP Flipclock ===
 Contributors: rhyswynne
 Donate link: https://www.winwar.co.uk/plugins/wp-flipclock/#donate
 Tags: flipclock, jquery, clocks, timers, countups, countdown
 Requires at least: 3.8.1
-Tested up to: 4.4.2
+Tested up to: 6.1.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -22,17 +22,16 @@ To use the plugin in your site, all you need to add to the page is the `[flipclo
 * **countdown (True/False)** - Allows you to count down to a date (true), or count up from a date (false). Default is *false*.
 * **date** – Any date string, formatted how you like, which the clock will count up from/down to. Default is *none*.
 * **face (days/hours/minutes)** - The face of the clock. Default is hours. Options are:-
-
-* days – Days : Hours : Minutes : Seconds
-* hours - Hours : Minutes : Seconds
-* minutes - Minutes : Seconds
+	* days – Days : Hours : Minutes : Seconds
+	* hours - Hours : Minutes : seconds
+	* minutes - Minutes : Seconds
 
 * **lang** - Changes the language of the labels (days,hours,minutes,seconds). Supported languages: English, Russian, Spanish, French, German.
 * **timezone** - Sets timezone for date. Now it shows the correct time before the event. The time zones have unique names in the form "Area/Location", e.g. "America/New_York".
-* **seconds** - Hides|shows seconds in face-mode "days". 
-
-*1 - shows seconds
-*0 - hide seconds
+* **seconds** - Hides|shows seconds in face-mode "days".
+	* 1 - shows seconds
+	* 0 - hide seconds
+* **hidelabel** - Adds the ability to hide the labels.
 
 This plugin uses the [Flipclock.js](http://www.flipclockjs.com) library from [ObjectiveHTML](https://www.objectivehtml.com/).
 
@@ -58,6 +57,18 @@ We offer support in two places:-
 This project is now on github, [you can view the repository here](https://github.com/rhyswynne/wp-flipclock). There are other versions, but this is the one I've put up, so where all the developmental will be tracked.
 
 == Changelog ==
+= 1.8 =
+* Fixed a potential XSS security vulnerability that would allow contributors to output code on the site.
+* Tested with 6.1.1.
+
+= 1.7.4 =
+* Tested with 5.3.
+* Added a CSS fix.
+* Added 24h/12h clocks.
+
+= 1.7.3 =
+* Tested with 5.2
+
 = 1.7.2 =
 * Fixed bug in hidelabel not displaying (thanks [CInsights](https://github.com/CInsights/)).
 
@@ -93,7 +104,7 @@ A big thank you to Den Kalinin for a lot of the changes in this update.
 = 1.1 =
 * Fix display bug in TwentyTwelve
 
-= 1.0 = 
+= 1.0 =
 * First Release on WordPress' official site
 
 = 0.1 =
