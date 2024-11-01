@@ -41,7 +41,7 @@ function wp_flipclock_display_clock($name = "wpflipclock", $countdown = "", $dat
 		$javascripttime = date('r', $phptime);
 	}
 	// (BA) Replace dash with underscore in Javascript vars
-	$calc_name = str_replace('-', '_', $name);
+	$calc_name = sanitize_text_field( str_replace('-', '_', $name) );
 	// (BA) Tidy up by removing console debug logging in below code
 	if ($datestring && $countdown) {
 

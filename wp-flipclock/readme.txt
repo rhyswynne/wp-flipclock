@@ -3,8 +3,8 @@ Contributors: rhyswynne
 Donate link: https://www.winwar.co.uk/plugins/wp-flipclock/#donate
 Tags: flipclock, jquery, clocks, timers, countups, countdown
 Requires at least: 3.8.1
-Tested up to: 6.1.1
-Stable tag: trunk
+Tested up to: 6.7
+Stable tag: 1.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -57,6 +57,25 @@ We offer support in two places:-
 This project is now on github, [you can view the repository here](https://github.com/rhyswynne/wp-flipclock). There are other versions, but this is the one I've put up, so where all the developmental will be tracked.
 
 == Changelog ==
+= 1.9 =
+* **Security Fix**: fixes a Authenticated (Contributor+) Stored-XSS vulnerability
+* Tested with 6.7.
+
+= 1.8.5 =
+* Tested with 6.6.
+
+= 1.8.4 =
+* Tested with 6.5.
+
+= 1.8.3 =
+* Tested with 6.4.
+
+= 1.8.2 =
+* Tested with 6.3.
+
+= 1.8.1 =
+* Tested with 6.2.
+
 = 1.8 =
 * Fixed a potential XSS security vulnerability that would allow contributors to output code on the site.
 * Tested with 6.1.1.
